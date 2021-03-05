@@ -1,0 +1,45 @@
+#square-container{
+    border: 1px #000000 solid;
+    margin: auto;
+    width: 800px;
+    min-height: auto;
+    transition: 3s;
+}
+
+.even-square{
+    border: 1px #000000 solid;
+    background-color: #ff00ea;
+    width: 50px;
+    height: 50px;
+    margin: 2px auto;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    transition: all 3s;
+}
+
+.odd-square{
+    border: 1px #000000 dashed;
+    background-color: #21dfec;
+    width: 50px;
+    height: 50px;
+    margin: 2px auto;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    transition: all 3s;
+}
+
+#square-container:hover .even-square{
+    transform: translateX(-330px) rotate(1080deg) scale(2, 2);
+}
+
+#square-container:hover .odd-square{
+    transform: translateX(330px) rotate(-1080deg) scale(.75, .75);
+}
+
+#square-container:hover{
+    border-radius: 15px;
+}
