@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/calculator.css">
+    <script src="/scripts/calculator.js"></script>
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <div id="container" class="calculator">
+        <div id="display" class="display"></div>
+        <button class="key plus" value="+" onclick="getOperator(this)">+</button>
+        <button class="key minus" value="-" onclick="getOperator(this)">-</button>
+        <button class="key multiply" value="*" onclick="getOperator(this)">*</button>
+        <button class="key divide" value="/" onclick="getOperator(this)">/</button>
+        <button class="key digit-7" value="7" onclick="showNumber(this)">7</button>
+        <button class="key digit-8" value="8" onclick="showNumber(this)">8</button>
+        <button class="key digit-9" value="9" onclick="showNumber(this)">9</button>
+        <button class="key digit-4" value="4" onclick="showNumber(this)">4</button>
+        <button class="key digit-5" value="5" onclick="showNumber(this)">5</button>
+        <button class="key digit-6" value="6" onclick="showNumber(this)">6</button>
+        <button class="key digit-1" value="1" onclick="showNumber(this)">1</button>
+        <button class="key digit-2" value="2" onclick="showNumber(this)">2</button>
+        <button class="key digit-3" value="3" onclick="showNumber(this)">3</button>
+        <button class="key clear-key" onclick="clearAll()">AC</button>
+        <button class="key digit-0" value="0" onclick="showNumber(this)">0</button>
+        <button class="key equals" value="=" onclick="calculateNum()">=</button>
+    </div>
+</body>
+</html>
