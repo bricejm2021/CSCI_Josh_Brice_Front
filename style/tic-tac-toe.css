@@ -1,0 +1,97 @@
+#container{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    background-color: #61429d;
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas: 
+        'square-1 square-2 square-3'
+        'square-4 square-5 square-6'
+        'square-7 square-8 square-9';
+}
+#buttons{
+    text-align: center;
+}
+
+.button{
+  background-color: #61429d;
+  border-radius: 4px;
+  color:white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  border-color: black;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    visibility: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: gray;
+}
+
+p{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.square{
+    width: 162px;
+    height: 162px;
+    background-color: white;
+    text-align:center;
+    font-size: 140px;
+}
+
+.box-1{
+    grid-area: square-1;
+}
+
+.box-2{
+    grid-area: square-2;
+}
+
+.box-3{
+    grid-area: square-3;
+}
+
+.box-4{
+    grid-area: square-4;
+}
+
+.box-5{
+    grid-area: square-5;
+}
+
+.box-6{
+    grid-area: square-6;
+}
+
+.box-7{
+    grid-area: square-7;
+}
+
+.box-8{
+    grid-area: square-8;
+}
+
+.box-9{
+    grid-area: square-9;
+}
